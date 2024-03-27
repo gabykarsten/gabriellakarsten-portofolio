@@ -1,7 +1,34 @@
+:root {
+  --branding-color: #d6c3ad;
+  --default-font: "Public Sans", sans-serif;
+  --default-heading-font: "Public Sans", sans-serif;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
 }
 
-p {
-  font-family: "Public Sans", sans-serif;
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 160px 0;
+}
+
+.hero h2 {
+  font-family: var(--default-font);
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.hero h1 {
+  font-size: 70px;
+}
+
+.hero p {
+  font-size: 25px;
+}
+
+.btn-dark {
+  color: var(--branding-color);
+  padding: 5px 20px;
 }
