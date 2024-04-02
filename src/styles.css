@@ -5,6 +5,17 @@
   --default-heading-font: "Playfair Display", serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary-color);
+  font-family: var(--default-heading-font);
+  font-weight: bold;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
 }
@@ -20,6 +31,25 @@ h1 {
   color: var(--secondary-color);
   font-size: 20px;
   padding: 10px 0;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+  font-weight: bold;
+}
+
+.about-section-content {
+  margin: 30px;
 }
 
 .hero h1 {
@@ -70,8 +100,18 @@ h1 {
     padding: 0;
     text-align: center;
   }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
   .row {
     padding: 5px 0;
     margin: 40px 0;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
