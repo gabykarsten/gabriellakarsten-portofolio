@@ -26,7 +26,7 @@ h4 {
 
 .hero {
   background: var(--branding-color);
-  text-align: left;
+  text-align: center;
   padding: 200px 200px;
 }
 
