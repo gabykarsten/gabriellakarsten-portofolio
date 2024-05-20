@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #d6c3ad;
+  --branding-color: #e7d7c9;
   --secondary-color: #272727;
   --default-font: "Public Sans", sans-serif;
   --default-heading-font: "Playfair Display", serif;
@@ -26,8 +26,8 @@ h4 {
 
 .hero {
   background: var(--branding-color);
-  text-align: center;
-  padding: 200px 0;
+  text-align: left;
+  padding: 200px 200px;
 }
 
 .hero h2 {
