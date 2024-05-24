@@ -25,7 +25,6 @@ h4 {
 }
 
 .hero {
-  background: var(--branding-color);
   text-align: center;
   padding: 200px 200px;
 }
@@ -154,28 +153,13 @@ nav li.active a {
 }
 
 footer {
-  margin: 100px 130px;
+  background-color: var(--branding-color);
 }
 
-footer .contact-box {
-  background: var(--branding-color);
-  padding: 30px 120px;
-  border-radius: 10px;
-}
-
-footer .contact-box p {
-  margin: 0;
-}
-
-footer .email-link {
-  text-decoration: none;
-  color: var(--secondary-color);
-  font-size: 24px;
+footer h3 {
   text-align: center;
-}
-
-footer .email-link:hover {
-  color: var(--branding-color);
+  margin: 10px auto;
+  padding: 20px 10px;
 }
 
 footer .social-links a {
@@ -190,7 +174,6 @@ footer .social-links a {
 
 footer .social-links a:hover {
   color: white;
-  background-color: #d6c3ad;
 }
 
 @media (max-width: 900px) {
