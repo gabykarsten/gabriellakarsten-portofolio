@@ -125,8 +125,13 @@ h4 {
   max-width: 150px;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 nav {
-  padding: 20px 0;
+  padding: 20px 30px;
+  background-color: var(--branding-color);
 }
 
 nav ul {
@@ -149,11 +154,8 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
-}
-
-footer {
-  background-color: var(--branding-color);
+  color: white;
+  text-decoration: underline;
 }
 
 footer h3 {
