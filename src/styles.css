@@ -88,6 +88,7 @@ h4 {
 
 .btn {
   color: var(--branding-color);
+  border-radius: 6px;
 }
 
 .btn-dark {
@@ -117,7 +118,7 @@ h4 {
   background-color: var(--branding-color);
   border: none;
   color: white;
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 15px 30px;
 }
 
@@ -200,6 +201,10 @@ footer .social-links a:hover {
   .content {
     text-align: center;
     padding: 0;
+  }
+
+  button {
+    margin-top: 5px;
   }
 
   nav a {
